@@ -1,0 +1,30 @@
+{
+  "name": "react2",
+  "version": "0.1.0",
+  "description": "",
+  "license": "MIT",
+  "scripts": {
+    "start": "vite",
+    "preview": "vite preview",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "meow": "^11.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.6.2",
+    "react-router-hash-link": "^2.4.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "babel-loader": "^8.3.0",
+    "babel-preset-nano-react-app": "^0.1.0",
+    "trim-newlines": "^4.0.2",
+    "vite": "^3.2.1"
+  },
+  "babel": {
+    "presets": [
+      "nano-react-app"
+    ]
+  }
+}
